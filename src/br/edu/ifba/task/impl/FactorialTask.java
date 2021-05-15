@@ -23,8 +23,6 @@ public class FactorialTask implements ITask {
 
   @Override
   public void run() throws InterruptedException {
-    long start = System.currentTimeMillis();
-
     for (int count = 2; count <= number; count += INTERVAL_BY_THREAD + 1) {
       int finalNumber = count + INTERVAL_BY_THREAD;
 
