@@ -36,7 +36,6 @@ public class CalculatorFrame  extends JFrame {
 
     createTextField();
     createButton();
-    createPoweredBy();
 
     this.add(panel);
     this.setSize(450, 180);
@@ -89,7 +88,7 @@ public class CalculatorFrame  extends JFrame {
   }
 
   private void createPoweredBy() {
-    JLabel poweredBy = new JLabel("Por: Anderson Rocha");
+    JLabel poweredBy = new JLabel("Por: Anderson Rocha e João Pedro Luz");
     Font fontPoweredBy = new Font(Font.SANS_SERIF, Font.PLAIN, 10);
     poweredBy.setBounds(320, 120, 100, 10);
     poweredBy.setFont(fontPoweredBy);
